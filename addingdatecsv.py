@@ -34,6 +34,6 @@ def add_nevada_time_to_csv(input_file, output_file):
             writer.writerow(row)
 
 # Example usage
-input_file = r"E:\pdf2excel\Date_Time_code\cyhy-UNLV-2024-06-02T174858+0000_findings.csv"
+input_file = r"E:\pdf2excel\Date_Time_code\filename.csv"
 output_file = r"E:\pdf2excel\Date_Time_code\output.csv"
 add_nevada_time_to_csv(input_file, output_file)
